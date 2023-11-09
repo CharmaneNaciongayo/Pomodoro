@@ -1,0 +1,93 @@
+/**Font Importants**/
+@font-face {
+    font-family: "Watermelon";
+    src: url(/Fonts/Watermelon-Regular.otf);
+}
+
+/**Timer**/
+html {
+    background-color: #fef8f7;
+    margin: 0;
+    padding: 0;
+    font-family: "Watermelon" !important;
+}
+
+#pomodoro {
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    width: 70%;
+    color: #4b2b24;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    color: #4b2b24;
+}
+
+#container {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+#timer {
+    color: #4b2b24;
+    margin: 25px auto;
+    border: 8px solid #4b2b24;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#time {
+    z-index: 1;
+    position: relative;
+    font-size: 120px;
+}
+
+#filler {
+    background: rgb(198, 107, 122);
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+button {
+    background: rgb(198, 107, 122);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 75%;
+    margin: 5px;
+    font-size: 15px;
+    height: 54px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Watermelon";
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(166, 67, 83);
+}
